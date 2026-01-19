@@ -169,6 +169,19 @@ export default function Home() {
               Sign Up
             </Link>
           </div>
+          <div className="pt-4 border-t border-border/50">
+            <p className="text-sm text-muted-foreground">
+              Made by{' '}
+              <a
+                href="https://github.com/deepakm0003"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-foreground/90 hover:text-foreground hover:underline underline-offset-4 transition-colors"
+              >
+                Deepak
+              </a>
+            </p>
+          </div>
         </div>
       </footer>
     </div>
